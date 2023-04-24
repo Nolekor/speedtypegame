@@ -13,6 +13,10 @@ body {
   font-weight: 400;
 }
 
+button:disabled {
+  cursor: not-allowed;
+}
+
 button {
   font-family: "Press Start 2P", cursive;
   display: block;
@@ -38,4 +42,8 @@ textarea {
   height: 200px;
   background: #00b800;
   padding: 10px;
+}
+
+textarea:disabled {
+  background-color: #a5a2a2;
 }
